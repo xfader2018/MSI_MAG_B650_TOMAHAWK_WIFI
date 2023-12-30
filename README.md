@@ -28,10 +28,10 @@ Current Version: macOS Ventura 13.6.3
 - Wifi/BT
 
 # Not working
-iGPU, disable this in your BIOS.
+- iGPU, disable this in your BIOS.
 
 # BIOS Settings
-Default settings with XMP enabled. Disable iGPU.
+Default settings with XMP enabled. Disabled iGPU and onboard Wifi/BT.
 
 # SMBIOS
 Use MacPro7,1 model and create your own serial info with [genSMBIOS](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios)
