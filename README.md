@@ -37,4 +37,4 @@ USB-Port Mapping is done via `USBPorts.kext`:
 
 See below pictures for mapping according included kext.
 
-![backpanel](Docs/backpanel.png)
+![backpanel](Docs/backpanel.jpg)
