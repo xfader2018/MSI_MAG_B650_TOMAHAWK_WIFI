@@ -21,6 +21,7 @@ Current Version: macOS Ventura 13.6.3
 
 # Working
 - Audio
+- Ethernet network
 - CPU Power Management
 - USB Ports
 - Sleep/Wake
