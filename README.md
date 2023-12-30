@@ -65,6 +65,6 @@ See below pictures for mapping according included kext.
 
 #
 
-![backpanel](Docs/backpanel.jpg)
+![backpanel](Docs/backpanel_layout.jpg)
 
 ![onboard](Docs/onboard_usbheaders.png)
