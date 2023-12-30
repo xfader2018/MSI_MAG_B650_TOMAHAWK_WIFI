@@ -1,6 +1,6 @@
 
 
-# MSI MAG-B650 TOMAHAWK WIFI + AMD 7800X3D Hackintosh
+# MSI MAG B650 TOMAHAWK WIFI + AMD 7800X3D Hackintosh
 
 ![About](Docs/about.png)
 
