@@ -20,6 +20,7 @@ Current Version: macOS Ventura 13.6.3
 | **Wifi/Bluetooth** | Fenvi FV-HB1200 with Broadcom Chipset |
 
 # Working
+- Audio
 - CPU Power Management
 - USB Ports
 - Sleep/Wake
