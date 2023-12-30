@@ -1,36 +1,40 @@
-Current macOS
+
+
+# MSI MAG-B650M-WIFI + AMD 7800X3D Hackintosh
+
+![About](about.png)
+
+# Current macOS
 
 Current Version: macOS Ventura 13.6.3
 
-Hardware
+# Hardware
+| Type | Model                |
+| :-------- | :------------------------- |
+| **CPU** | AMD Ryzen 7 7800X3D |
+| **Motherboard** | MSI MAG B650 WIFI |
+| **Memory** | 32 GB (2x16GB) Corsair DDR5 7200Mhz CL34 |
+| **Graphics** | AMD Radeon RX6600XT |
+| **PSU** | Corsair SF750 |
+| **Wifi/Bluetooth** | Fenvi FV-HB1200 with Broadcom Chipset |
 
-CPU: AMD Ryzen 7 7800X3D
-Board: MSI MAG B650 WIFI
-RAM: 32 GB (2x16GB) Corsair DDR5 7200Mhz CL34
-GPU: AMD Radeon RX6600XT
-PSU: Corsair SF750
-Case: Asus AP201 (Micro-ATX)
-Wifi/BT: Fenvi FV-HB1200 with Broadcom Chipset
+# Working
+- CPU Power Management
+- USB Ports
+- Sleep/Wake
+- Wifi/BT
 
-Working
 
-CPU Power Management
-USB Ports
-Sleep/Wake
-Wifi/BT
+# Not working
+iGPU, disable this in your BIOS.
 
-Not working
+# BIOS Settings
+Default settings with XMP enabled. Disable iGPU.
 
-iGPU: Disable this in BIOS.
+# USB Port Mapping
 
-BIOS Settings
+USB-Port Mapping is done via `USBPorts.kext`:
 
-Default settings with XMP enabled. Disable the iGPU.
+See below pictures for mapping according included kext.
 
-USB Port Mapping
-
-USB-Port Mapping is done via USBPorts.kext:
-
-SMBIOS:
-
-Use MacPro7,1 SMBIOS with your own created serialnumber with genSMBIOS
+![USB-Port-Mapping_B650M-Riptide](Docs/USB-Port-Mapping_B650M-Riptide.png)
