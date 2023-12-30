@@ -2,7 +2,7 @@
 
 # MSI MAG-B650M-WIFI + AMD 7800X3D Hackintosh
 
-![About](about.png)
+![About](Docs/about.png)
 
 # Current macOS
 
@@ -37,4 +37,4 @@ USB-Port Mapping is done via `USBPorts.kext`:
 
 See below pictures for mapping according included kext.
 
-![USB-Port-Mapping_B650M-Riptide](Docs/USB-Port-Mapping_B650M-Riptide.png)
+![backpanel](Docs/backpanel.png)
