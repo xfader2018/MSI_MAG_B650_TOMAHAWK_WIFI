@@ -1,6 +1,6 @@
 
 
-# MSI MAG-B650M-WIFI + AMD 7800X3D Hackintosh
+# MSI MAG-B650 TOMAHAWK WIFI + AMD 7800X3D Hackintosh
 
 ![About](Docs/about.png)
 
@@ -12,7 +12,7 @@ Current Version: macOS Ventura 13.6.3
 | Type | Model                |
 | :-------- | :------------------------- |
 | **CPU** | AMD Ryzen 7 7800X3D |
-| **Motherboard** | MSI MAG B650 WIFI |
+| **Motherboard** | MSI MAG B650 TOMAHAWK WIFI |
 | **Memory** | 32 GB (2x16GB) Corsair DDR5 7200Mhz CL34 |
 | **Graphics** | AMD Radeon RX6600XT |
 | **PSU** | Corsair SF750 |
