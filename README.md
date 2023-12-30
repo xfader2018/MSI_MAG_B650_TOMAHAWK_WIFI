@@ -65,3 +65,4 @@ See below pictures for mapping according included kext.
 
 
 ![backpanel](Docs/backpanel.jpg)
+![onboard](Docs/onboard_usbheaders.png)
