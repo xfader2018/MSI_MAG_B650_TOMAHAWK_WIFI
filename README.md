@@ -63,6 +63,8 @@ See below pictures for mapping according included kext.
 | HS12 | Rear Red port 3 |USB 2.0|
 | SS12 | Rear Red port 3 |USB 3.2|
 
+#
 
 ![backpanel](Docs/backpanel.jpg)
+
 ![onboard](Docs/onboard_usbheaders.png)
