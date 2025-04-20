@@ -20,31 +20,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-DTPG.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-EC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-HPET.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PMC.aml</string>
+				<string>SSDT-EC-USBX-DESKTOP.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -53,22 +29,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-SBUS-MCHC-AMD.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-USB-Reset.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-USBX.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -81,171 +41,21 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>HPET _STA to XSTA Rename</string>
+				<string>_PTS to ZPTS</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>JV9TVEE=</data>
+				<data>X1BUUw==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>OemTableId</key>
-				<data>AAAAAA==</data>
+				<data></data>
 				<key>Replace</key>
-				<data>JVhTVEE=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>HPET _CRS to XCRS Rename</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>KF9DUlM=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data>AAAAAA==</data>
-				<key>Replace</key>
-				<data>KFhDUlM=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>PIC IRQ 2 Patch</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>IgQAeQA=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data>AAAAAA==</data>
-				<key>Replace</key>
-				<data>IgAAeQA=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>TMR IRQ 0 Patch</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>IgEAeQA=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data>AAAAAA==</data>
-				<key>Replace</key>
-				<data>IgAAeQA=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>RTC0 IRQ 8 Patch</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>IgABeQA=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data>AAAAAA==</data>
-				<key>Replace</key>
-				<data>IgAAeQA=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>XH00 _STA to XSTA Rename</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>X1NUQQhwAGWgTAaQWxJeXkZMRzAAWxJeXkVCVVMAfWUBZaBCBZCTXl5GTEcwChaSk15eRUJVU0RCVVN9ZQoCZXAKM002NDBwCjNNNjQxcAozTTY0MnAK7kZMRzBwCu5FU1RBcAvu7kRCVVNwDO7u7u5EQURSoE4zkZNEU1RBCu6TRVNUQQrufWUKBGWgMZNEQlVTC+7uoBpbEl5eRUJVUwB9ZQoIZXBeXkVCVVNEQlVToQx9ZQoQZXAAREJVU6BOLZKTREJVUwvu7n1lCiBloEoEk0RBRFIM7u7u7n1lCkBlfXt5X0FEUgoMAAsAcAB7el9BRFIBAAwAgA8AAGB9e3lEQlVTChQADAAA8A8AYGByTTA4M2BEQURScAz///9/YH1gDAAAAIBgcE0wNEJEQURSAGGgQwqRk2Fgk2EAfWUKgGVwAERTVEFwAEVTVEGgSAiSk0RCVVMAfWULAAFloEgHkFsSXl5NNjQxAFsSXl5EQURSAKAmk15eTTY0MQozfWULAAJlcE02NDZeXkRBRFIKEGJwYl5eTTY0MaEPfWULAARlcF5eTTY0MWKgK5N7TTA0OV5eREFEUnJiChQACkAACkB9ZQsACGVwCg9EU1RBcAruRVNUQaFEHKBKGpNNMDRBREFEUgoKCwQGe3pNMDRCREFEUgoYCggACv9FQlVToCCTTTY0MQozfWULABBlcE02NDZEQURSChBicGJNNjQxoQ19ZQsAIGVwTTY0MWJ7ek0wNDlEQURScmIKAgAKBAAKD2OgTQWTYwoFoBuTRUJVUwB9ZQsAQGVwCg9EU1RBcAruRVNUQaE6oCCTTTY0OEVCVVMKDQAAfWULAIBlcABEU1RBcABFU1RBoRd9ZQwAAAEAZXAKD0RTVEFwCg9FU1RBoUEJoEYFk3tNMDQ5REFEUnJiChoACkAAAKAok3tNMDQ5REFEUnJiChQACkAAAH1lDAAAAgBlcABEU1RBcABFU1RBoRd9ZQwAAAQAZXAKD0RTVEFwCu5FU1RBoTegHZNFQlVTAH1lDAAACABlcAoPRFNUQXAK7kVTVEGhF31lDAAAEABlcAoPRFNUQXAKD0VTVEGgQAWQk0ZMRzAK7pNjCgagHJNNNjQyCjN9ZQwAACAAZXBNNjQ2REFEUgoVZKEPfWUMAABAAGVwTTY0MmSgFJKTZAB9ZQwAAIAAZXAKFkZMRzChFn1lDAAAAAFlcAoPRFNUQXAARVNUQaEWfWUMAAAAAmVwAERTVEFwCu5FU1RBoC2TRkxHMAoWfWUMAAAABGWgHJNNMDQ5REFEUgoZAH1lDAAAAAhlcAruRVNUQaBKC5CQk1BDU0EBk1BXU1QK05NQVzNTAX1lDAAAABBloEMJWxJYSEdQAH1lDAAAACBloEEIkJNFU1RBAJKUWEhHUAoDTTQ2MA0gIE9FTS1BU0wtQ2FsbCBDcG1DaGVja0V4cGFuZGVySW5wdXRFdmVudCAoJWQpIGluIFBDSWUgQWRkcmVzcyAoMHglWCkuX1NUQSAoRDMtPkQwKQoAWEhHUERBRFIAAAAAcE00RjFYSEdQYHAK0FBXU1SgSguQkJNQQ1NBAJNQV1NUCtCTUFczUwB9ZQwAAABAZaBDCVsSWEhHUAB9ZQwAAACAZaBBCJCTRVNUQQCSlFhIR1AKA000NjANICBPRU0tQVNMLUNhbGwgQ3BtQ2hlY2tFeHBhbmRlcklucHV0RXZlbnQgKCVkKSBpbiBQQ0llIEFkZHJlc3MgKDB4JVgpLl9TVEEgKEQwLT5EMykKAFhIR1BEQURSAAAAAHBNNEYxWEhHUGBwCtNQV1NUoAxbElNTVEEAU1NUQaBEDpKTREFEUgzu7u7uTTQ2MA0gIE9FTS1BU0wtUENJZSBBZGRyZXNzICgweCVYKS5fU1RBID0gMHglWCAgUFdTVCA9IDB4JVggIERCVVMgPSAweCVYICBFU1RBID0gMHglWCAgRUJVUyA9IDB4JVgAREFEUkRTVEFQV1NUREJVU0VTVEFFQlVTTTQ2MA0gIFBDU0EgPSAweCVYICBQVzNTID0gMHglWCAgRkxHMCA9IDB4JVggIFhIR1AgPSAweCVYICBMb2NhbDUgPSAweCVYCgBQQ1NBUFczU0ZMRzBYSEdQZQCkRFNUQRRPE19JTkkIcAz///9/YH1gDAAAAIBgcE0wNEJEQURSAGGgG5GTYWCTYQBwAFBDU0FwCtNQV1NUcABQVzNToRRwAVBDU0FwCtBQV1NUcAFQVzNToE0Gk1BDU0EBoBqTTTY0MQozcE02NDZEQURSChBicGJNNjQxoBmTTTY0MAozcE02NDZEQURSAWJwYk02NDCgL5NEVlRQCu5wTTA0OURBRFIKDmF7YQo/YaAKk2EAcABEVlRQoAqTYQFwAURWVFBNNDYwDSAgT0VNLUFTTC1QQ0llIEFkZHJlc3MgKDB4JVgpLl9JTkkgIFBDU0EgPSAweCVYICBQV1NUID0gMHglWCAgUFczUyA9IDB4JVggIERWVFAgPSAweCVYCgBEQURSUENTQVBXU1RQVzNTRFZUUACgDFsSU0lOSQBTSU5JFEoJX1JFRwqgK5CTaAoCk2kBoCGTRFNUQQoPoBiTe00wNDlEQURSCgQK/AAKBHABUENTQaAPkJNoCgKTaQBwAFBDU0GgDlsSU1JFRwBTUkVHaGlNNDYwDSAgT0VNLUFTTC1QQ0llIEFkZHJlc3MgKDB4JVgpLl9SRUcgKCVkICVkKSAgUENTQSA9ICVkCgBEQURSaGlQQ1NBAAAUQAdfRFNXC6APWxJTRFNXAFNEU1doaWqgSAWSk0RBRFIM7u7u7k00NjANICBPRU0tQVNMLVBDSWUgQWRkcmVzcyAoMHglWCkuX0RTVyAoJWQgJWQgJWQpICBQQ1NBID0gJWQKAERBRFJoaWpQQ1NBABRGBF9QUzAITTQ2MA0gIE9FTS1BU0wtUENJZSBBZGRyZXNzICgweCVYKS5fUFMwCgBEQURSAAAAAACgDFsSUFBTMABQUFMwFEYEX1BTMwhNNDYwDSAgT0VNLUFTTC1QQ0llIEFkZHJlc3MgKDB4JVgpLl9QUzMKAERBRFIAAAAAAKAMWxJQUFMzAFBQUzNbhEsTUFdSUwAAABRIBl9TVEEIoE4EkpNEQURSDO7u7u5NNDYwDSAgT0VNLUFTTC1QQ0llIEFkZHJlc3MgKDB4JVgpLlBXUlMuX1NUQSA9IDB4JVgKAERBRFJQVzNTAAAAAKAMWxJQU1RBAFBTVEGkUFczUxRDBl9PTl8IoEsFk1BXM1MAcAFQVzNTTTQ2MA0gIE9FTS1BU0wtUENJZSBBZGRyZXNzICgweCVYKS5QV1JTLl9PTiA9IDB4JVgKAERBRFJQVzNTAAAAAKAMWxJQX09OAFBfT04URAZfT0ZGCKBMBZNQVzNTAXAAUFczU000NjANICBPRU0tQVNMLVBDSWUgQWRkcmVzcyAoMHglWCkuUFdSUy5fT0ZGID0gMHglWAoAREFEUlBXM1MAAAAAoAxbElBfT0YAUF9PRghfUFIwEgYBUFdSUwhfUFIzEgYBUFdSU1uCiHg=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data>AAAAAA==</data>
-				<key>Replace</key>
-				<data>WFNUQQhwAGWgTAaQWxJeXkZMRzAAWxJeXkVCVVMAfWUBZaBCBZCTXl5GTEcwChaSk15eRUJVU0RCVVN9ZQoCZXAKM002NDBwCjNNNjQxcAozTTY0MnAK7kZMRzBwCu5FU1RBcAvu7kRCVVNwDO7u7u5EQURSoE4zkZNEU1RBCu6TRVNUQQrufWUKBGWgMZNEQlVTC+7uoBpbEl5eRUJVUwB9ZQoIZXBeXkVCVVNEQlVToQx9ZQoQZXAAREJVU6BOLZKTREJVUwvu7n1lCiBloEoEk0RBRFIM7u7u7n1lCkBlfXt5X0FEUgoMAAsAcAB7el9BRFIBAAwAgA8AAGB9e3lEQlVTChQADAAA8A8AYGByTTA4M2BEQURScAz///9/YH1gDAAAAIBgcE0wNEJEQURSAGGgQwqRk2Fgk2EAfWUKgGVwAERTVEFwAEVTVEGgSAiSk0RCVVMAfWULAAFloEgHkFsSXl5NNjQxAFsSXl5EQURSAKAmk15eTTY0MQozfWULAAJlcE02NDZeXkRBRFIKEGJwYl5eTTY0MaEPfWULAARlcF5eTTY0MWKgK5N7TTA0OV5eREFEUnJiChQACkAACkB9ZQsACGVwCg9EU1RBcAruRVNUQaFEHKBKGpNNMDRBREFEUgoKCwQGe3pNMDRCREFEUgoYCggACv9FQlVToCCTTTY0MQozfWULABBlcE02NDZEQURSChBicGJNNjQxoQ19ZQsAIGVwTTY0MWJ7ek0wNDlEQURScmIKAgAKBAAKD2OgTQWTYwoFoBuTRUJVUwB9ZQsAQGVwCg9EU1RBcAruRVNUQaE6oCCTTTY0OEVCVVMKDQAAfWULAIBlcABEU1RBcABFU1RBoRd9ZQwAAAEAZXAKD0RTVEFwCg9FU1RBoUEJoEYFk3tNMDQ5REFEUnJiChoACkAAAKAok3tNMDQ5REFEUnJiChQACkAAAH1lDAAAAgBlcABEU1RBcABFU1RBoRd9ZQwAAAQAZXAKD0RTVEFwCu5FU1RBoTegHZNFQlVTAH1lDAAACABlcAoPRFNUQXAK7kVTVEGhF31lDAAAEABlcAoPRFNUQXAKD0VTVEGgQAWQk0ZMRzAK7pNjCgagHJNNNjQyCjN9ZQwAACAAZXBNNjQ2REFEUgoVZKEPfWUMAABAAGVwTTY0MmSgFJKTZAB9ZQwAAIAAZXAKFkZMRzChFn1lDAAAAAFlcAoPRFNUQXAARVNUQaEWfWUMAAAAAmVwAERTVEFwCu5FU1RBoC2TRkxHMAoWfWUMAAAABGWgHJNNMDQ5REFEUgoZAH1lDAAAAAhlcAruRVNUQaBKC5CQk1BDU0EBk1BXU1QK05NQVzNTAX1lDAAAABBloEMJWxJYSEdQAH1lDAAAACBloEEIkJNFU1RBAJKUWEhHUAoDTTQ2MA0gIE9FTS1BU0wtQ2FsbCBDcG1DaGVja0V4cGFuZGVySW5wdXRFdmVudCAoJWQpIGluIFBDSWUgQWRkcmVzcyAoMHglWCkuX1NUQSAoRDMtPkQwKQoAWEhHUERBRFIAAAAAcE00RjFYSEdQYHAK0FBXU1SgSguQkJNQQ1NBAJNQV1NUCtCTUFczUwB9ZQwAAABAZaBDCVsSWEhHUAB9ZQwAAACAZaBBCJCTRVNUQQCSlFhIR1AKA000NjANICBPRU0tQVNMLUNhbGwgQ3BtQ2hlY2tFeHBhbmRlcklucHV0RXZlbnQgKCVkKSBpbiBQQ0llIEFkZHJlc3MgKDB4JVgpLl9TVEEgKEQwLT5EMykKAFhIR1BEQURSAAAAAHBNNEYxWEhHUGBwCtNQV1NUoAxbElNTVEEAU1NUQaBEDpKTREFEUgzu7u7uTTQ2MA0gIE9FTS1BU0wtUENJZSBBZGRyZXNzICgweCVYKS5fU1RBID0gMHglWCAgUFdTVCA9IDB4JVggIERCVVMgPSAweCVYICBFU1RBID0gMHglWCAgRUJVUyA9IDB4JVgAREFEUkRTVEFQV1NUREJVU0VTVEFFQlVTTTQ2MA0gIFBDU0EgPSAweCVYICBQVzNTID0gMHglWCAgRkxHMCA9IDB4JVggIFhIR1AgPSAweCVYICBMb2NhbDUgPSAweCVYCgBQQ1NBUFczU0ZMRzBYSEdQZQCkRFNUQRRPE19JTkkIcAz///9/YH1gDAAAAIBgcE0wNEJEQURSAGGgG5GTYWCTYQBwAFBDU0FwCtNQV1NUcABQVzNToRRwAVBDU0FwCtBQV1NUcAFQVzNToE0Gk1BDU0EBoBqTTTY0MQozcE02NDZEQURSChBicGJNNjQxoBmTTTY0MAozcE02NDZEQURSAWJwYk02NDCgL5NEVlRQCu5wTTA0OURBRFIKDmF7YQo/YaAKk2EAcABEVlRQoAqTYQFwAURWVFBNNDYwDSAgT0VNLUFTTC1QQ0llIEFkZHJlc3MgKDB4JVgpLl9JTkkgIFBDU0EgPSAweCVYICBQV1NUID0gMHglWCAgUFczUyA9IDB4JVggIERWVFAgPSAweCVYCgBEQURSUENTQVBXU1RQVzNTRFZUUACgDFsSU0lOSQBTSU5JFEoJX1JFRwqgK5CTaAoCk2kBoCGTRFNUQQoPoBiTe00wNDlEQURSCgQK/AAKBHABUENTQaAPkJNoCgKTaQBwAFBDU0GgDlsSU1JFRwBTUkVHaGlNNDYwDSAgT0VNLUFTTC1QQ0llIEFkZHJlc3MgKDB4JVgpLl9SRUcgKCVkICVkKSAgUENTQSA9ICVkCgBEQURSaGlQQ1NBAAAUQAdfRFNXC6APWxJTRFNXAFNEU1doaWqgSAWSk0RBRFIM7u7u7k00NjANICBPRU0tQVNMLVBDSWUgQWRkcmVzcyAoMHglWCkuX0RTVyAoJWQgJWQgJWQpICBQQ1NBID0gJWQKAERBRFJoaWpQQ1NBABRGBF9QUzAITTQ2MA0gIE9FTS1BU0wtUENJZSBBZGRyZXNzICgweCVYKS5fUFMwCgBEQURSAAAAAACgDFsSUFBTMABQUFMwFEYEX1BTMwhNNDYwDSAgT0VNLUFTTC1QQ0llIEFkZHJlc3MgKDB4JVgpLl9QUzMKAERBRFIAAAAAAKAMWxJQUFMzAFBQUzNbhEsTUFdSUwAAABRIBl9TVEEIoE4EkpNEQURSDO7u7u5NNDYwDSAgT0VNLUFTTC1QQ0llIEFkZHJlc3MgKDB4JVgpLlBXUlMuX1NUQSA9IDB4JVgKAERBRFJQVzNTAAAAAKAMWxJQU1RBAFBTVEGkUFczUxRDBl9PTl8IoEsFk1BXM1MAcAFQVzNTTTQ2MA0gIE9FTS1BU0wtUENJZSBBZGRyZXNzICgweCVYKS5QV1JTLl9PTiA9IDB4JVgKAERBRFJQVzNTAAAAAKAMWxJQX09OAFBfT04URAZfT0ZGCKBMBZNQVzNTAXAAUFczU000NjANICBPRU0tQVNMLVBDSWUgQWRkcmVzcyAoMHglWCkuUFdSUy5fT0ZGID0gMHglWAoAREFEUlBXM1MAAAAAoAxbElBfT0YAUF9PRghfUFIwEgYBUFdSUwhfUFIzEgYBUFdSU1uCiHg=</data>
+				<data>WlBUUw==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -259,7 +69,7 @@
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
-			<false/>
+			<true/>
 			<key>NormalizeHeaders</key>
 			<false/>
 			<key>RebaseRegions</key>
@@ -267,7 +77,7 @@
 			<key>ResetHwSig</key>
 			<false/>
 			<key>ResetLogoStatus</key>
-			<true/>
+			<false/>
 			<key>SyncTableIds</key>
 			<false/>
 		</dict>
@@ -282,7 +92,7 @@
 				<key>Comment</key>
 				<string>MMIO devirt 0xF0000000 (0x8000 pages, 0x800000000000100D)</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 			</dict>
 			<dict>
 				<key>Address</key>
@@ -324,7 +134,9 @@
 			<key>AllowRelocationBlock</key>
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
-			<false/>
+			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<true/>
 			<key>DevirtualiseMmio</key>
 			<true/>
 			<key>DisableSingleUser</key>
@@ -358,7 +170,7 @@
 			<key>ResizeAppleGpuBars</key>
 			<integer>0</integer>
 			<key>SetupVirtualMap</key>
-			<true/>
+			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
@@ -378,7 +190,7 @@
 		<array>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
@@ -396,7 +208,7 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
@@ -414,7 +226,7 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
@@ -434,13 +246,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>Innie.kext</string>
+				<string>AMFIPass.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/Innie</string>
+				<string>Contents/MacOS/AMFIPass</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -452,13 +264,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AppleALC.kext</string>
+				<string>USBMap.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleALC</string>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -470,13 +282,157 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>NVMeFix.kext</string>
+				<string>IOSkywalkFamily.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NVMeFix</string>
+				<string>Contents/MacOS/IOSkywalkFamily</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IO80211FamilyLegacy.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IO80211FamilyLegacy</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirPortBrcmNIC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AirportBrcmFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportBrcmFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>BrcmBluetoothInjector.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>BrcmFirmwareData.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BrcmFirmwareData</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AppleMCEReporterDisabler.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>LucyRTL8125Ethernet.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/LucyRTL8125Ethernet</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -524,6 +480,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>NVMeFix.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NVMeFix</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -540,51 +514,15 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>LucyRTL8125Ethernet.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/LucyRTL8125Ethernet</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AppleMCEReporterDisabler.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
+				<string>Innie.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string></string>
+				<string>Contents/MacOS/Innie</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -594,7 +532,24 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Comment</key>
+				<string>Allow IOSkywalkFamily Downgrade</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IOSkywalkFamily</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>Strategy</key>
+				<string>Exclude</string>
+			</dict>
+		</array>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -618,96 +573,6 @@
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
-				<string>algrey | Force cpuid_cores_per_package to constant (user-specified) | 10.13-10.14</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>wegaAAAA</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>//3/AAAA</data>
-				<key>MaxKernel</key>
-				<string>18.99.99</string>
-				<key>MinKernel</key>
-				<string>17.0.0</string>
-				<key>Replace</key>
-				<data>uAgAAAAA</data>
-				<key>ReplaceMask</key>
-				<data>//////8A</data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_cpuid_set_info</string>
-				<key>Comment</key>
-				<string>algrey | Force cpuid_cores_per_package to constant (user-specified) | 10.15-11.0</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>wegaAAAA</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>//3/AAAA</data>
-				<key>MaxKernel</key>
-				<string>20.99.99</string>
-				<key>MinKernel</key>
-				<string>19.0.0</string>
-				<key>Replace</key>
-				<data>uggAAAAA</data>
-				<key>ReplaceMask</key>
-				<data>//////8A</data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_cpuid_set_info</string>
-				<key>Comment</key>
-				<string>algrey | Force cpuid_cores_per_package to constant (user-specified) | 12.0-13.2</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>wegaAAAA</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>//3/AAAA</data>
-				<key>MaxKernel</key>
-				<string>22.3.99</string>
-				<key>MinKernel</key>
-				<string>21.0.0</string>
-				<key>Replace</key>
-				<data>uggAAACQ</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_cpuid_set_info</string>
-				<key>Comment</key>
 				<string>algrey | Force cpuid_cores_per_package to constant (user-specified) | 13.3+</string>
 				<key>Count</key>
 				<integer>1</integer>
@@ -722,7 +587,7 @@
 				<key>Mask</key>
 				<data>//3/AAA=</data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>22.4.0</string>
 				<key>Replace</key>
@@ -752,7 +617,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -782,7 +647,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -812,7 +677,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -842,7 +707,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -872,7 +737,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -888,13 +753,13 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>algrey | _cpuid_set_generic_info | Disable check to allow leaf7 | 10.13+</string>
+				<string>algrey | _cpuid_set_generic_info | Disable check to allow leaf7 | 15.x</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>ADoPgg==</data>
+				<data>AAUPgg==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
@@ -902,9 +767,9 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
-				<string>17.0.0</string>
+				<string>24.0.0</string>
 				<key>Replace</key>
 				<data>AAAPgg==</data>
 				<key>ReplaceMask</key>
@@ -962,41 +827,11 @@
 				<key>Mask</key>
 				<data>AAAAAAAA/////w==</data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
 				<data>kJCQkJCQMdKzAQ==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>algrey | _cpuid_set_cpufamily | Force CPUFAMILY_INTEL_PENRYN | 10.13-11.2</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>MduAPQAAAAAGdQA=</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>/////wAAAP///wA=</data>
-				<key>MaxKernel</key>
-				<string>20.3.0</string>
-				<key>MinKernel</key>
-				<string>17.0.0</string>
-				<key>Replace</key>
-				<data>u7xP6njpXQAAAJA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -1022,7 +857,7 @@
 				<key>Mask</key>
 				<data>//8AAAAA//8=</data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>20.4.0</string>
 				<key>Replace</key>
@@ -1052,7 +887,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -1082,7 +917,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
@@ -1112,7 +947,7 @@
 				<key>Mask</key>
 				<data>8P//8A==</data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
@@ -1142,7 +977,7 @@
 				<key>Mask</key>
 				<data>/wD//w==</data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>22.0.0</string>
 				<key>Replace</key>
@@ -1172,7 +1007,7 @@
 				<key>Mask</key>
 				<data>/wAAD/////8AAP8AAAD/AAAAAAA=</data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
@@ -1202,43 +1037,13 @@
 				<key>Mask</key>
 				<data>SAAA8P////8AAAAAAA==</data>
 				<key>MaxKernel</key>
-				<string>23.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
 				<data>AAAAAAAAAGaQZpBmkA==</data>
 				<key>ReplaceMask</key>
 				<data>AAAAAAAAAP///////w==</data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>algrey | _mtrr_update_action | fix PAT | 10.13+</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>icCB4v//AP+BygAAAQC5dwIAAA==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>////////D////////////////w==</data>
-				<key>MaxKernel</key>
-				<string>23.99.99</string>
-				<key>MinKernel</key>
-				<string>17.0.0</string>
-				<key>Replace</key>
-				<data>uXcCAAC4BgEHALoGAQcADx9AAA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1272,6 +1077,36 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Shaneee / Zormeister | _mtrr_update_action | Fix PAT | 15+</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>icCB4v//AP+BygAAAAAPMA==</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>/////////////wAAAAD//w==</data>
+				<key>MaxKernel</key>
+				<string>24.99.99</string>
+				<key>MinKernel</key>
+				<string>24.0.0</string>
+				<key>Replace</key>
+				<data>icC4BgYGBroGBgYGDzCQkA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -1284,7 +1119,7 @@
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
-			<true/>
+			<false/>
 			<key>CustomPciSerialDevice</key>
 			<false/>
 			<key>DisableIoMapper</key>
@@ -1298,7 +1133,7 @@
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
-			<true/>
+			<false/>
 			<key>ForceAquantiaEthernet</key>
 			<false/>
 			<key>ForceSecureBootScheme</key>
@@ -1329,7 +1164,7 @@
 			<key>FuzzyMatch</key>
 			<true/>
 			<key>KernelArch</key>
-			<string>Auto</string>
+			<string>x86_64</string>
 			<key>KernelCache</key>
 			<string>Auto</string>
 		</dict>
@@ -1351,7 +1186,7 @@
 			<key>InstanceIdentifier</key>
 			<string></string>
 			<key>LauncherOption</key>
-			<string>Disabled</string>
+			<string>Full</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -1369,16 +1204,16 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
-			<true/>
+			<false/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
@@ -1388,7 +1223,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -1407,7 +1242,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>11</integer>
+			<integer>14</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -1417,7 +1252,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Default</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1478,14 +1313,12 @@
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
-				<key>ForceDisplayRotationInEFI</key>
-				<integer>0</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 agdpmod=pikera</string>
+				<string>agdpmod=pikera revpatch=sbvmm</string>
 				<key>csr-active-config</key>
-				<data>/w8AAA==</data>
+				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
@@ -1504,11 +1337,15 @@
 				<string>revcpu</string>
 				<string>revcpuname</string>
 				<string>opencore-version</string>
+				<string>UIScale</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
 				<string>ForceDisplayRotationInEFI</string>
+				<string>SystemAudioVolume</string>
+				<string>SystemAudioVolumeDB</string>
+				<string>UIScale</string>
 				<string>csr-active-config</string>
 			</array>
 		</dict>
@@ -1517,33 +1354,7 @@
 		<key>WriteFlash</key>
 		<true/>
 		<key>LegacySchema</key>
-		<dict>
-			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<array>
-				<string>EFILoginHiDPI</string>
-				<string>EFIBluetoothDelay</string>
-				<string>LocationServicesEnabled</string>
-				<string>SystemAudioVolume</string>
-				<string>SystemAudioVolumeDB</string>
-				<string>SystemAudioVolumeSaved</string>
-				<string>bluetoothActiveControllerInfo</string>
-				<string>bluetoothInternalControllerInfo</string>
-				<string>flagstate</string>
-				<string>fmm-computer-name</string>
-				<string>fmm-mobileme-token-FMM</string>
-				<string>fmm-mobileme-token-FMM-BridgeHasAccount</string>
-				<string>nvda_drv</string>
-				<string>prev-lang:kbd</string>
-			</array>
-			<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
-			<array>
-				<string>Boot0080</string>
-				<string>Boot0081</string>
-				<string>Boot0082</string>
-				<string>BootNext</string>
-				<string>BootOrder</string>
-			</array>
-		</dict>
+		<dict/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1551,37 +1362,6 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
-		<key>DataHub</key>
-		<dict>
-			<key>ARTFrequency</key>
-			<integer>0</integer>
-			<key>BoardProduct</key>
-			<string>Mac-27AD2F918AE68F61</string>
-			<key>BoardRevision</key>
-			<data>CQ==</data>
-			<key>DevicePathsSupported</key>
-			<integer>0</integer>
-			<key>FSBFrequency</key>
-			<integer>0</integer>
-			<key>InitialTSC</key>
-			<integer>0</integer>
-			<key>PlatformName</key>
-			<string></string>
-			<key>SmcBranch</key>
-			<data></data>
-			<key>SmcPlatform</key>
-			<data></data>
-			<key>SmcRevision</key>
-			<data></data>
-			<key>StartupPowerEvents</key>
-			<integer>0</integer>
-			<key>SystemProductName</key>
-			<string></string>
-			<key>SystemSerialNumber</key>
-			<string></string>
-			<key>SystemUUID</key>
-			<string></string>
-		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
@@ -1589,21 +1369,78 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>F5K906104J9FHDDUE</string>
 			<key>ProcessorType</key>
 			<integer>3842</integer>
 			<key>ROM</key>
-			<data></data>
+			<data>2EOuHNNZ</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string></string>
+			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>F5KY7GYJP7QM</string>
 			<key>SystemUUID</key>
+			<string>7BD82C94-6421-41B9-A0A2-14780F92EECA</string>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string>10/05/2023</string>
+			<key>BIOSVendor</key>
 			<string></string>
+			<key>BIOSVersion</key>
+			<string>2020.41.1.0.0</string>
+			<key>BoardAssetTag</key>
+			<string>Base Board Asset Tag</string>
+			<key>BoardLocationInChassis</key>
+			<string>Part Component</string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string>Mac-27AD2F918AE68F61</string>
+			<key>BoardSerialNumber</key>
+			<string>F5K906104J9FHDDUE</string>
+			<key>BoardType</key>
+			<integer>10</integer>
+			<key>BoardVersion</key>
+			<string>MacPro7,1</string>
+			<key>ChassisAssetTag</key>
+			<string></string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string>F5KY7GYJP7QM</string>
+			<key>ChassisType</key>
+			<integer>7</integer>
+			<key>ChassisVersion</key>
+			<string>Mac-27AD2F918AE68F61</string>
+			<key>FirmwareFeatures</key>
+			<data>ZvCv/QgAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>f////wgAAAA=</data>
+			<key>PlatformFeature</key>
+			<integer>0</integer>
+			<key>ProcessorType</key>
+			<integer>3842</integer>
+			<key>SmcVersion</key>
+			<data></data>
+			<key>SystemFamily</key>
+			<string>MacPro</string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>MacPro7,1</string>
+			<key>SystemSKUNumber</key>
+			<string>System SKU#</string>
+			<key>SystemSerialNumber</key>
+			<string>F5KY7GYJP7QM</string>
+			<key>SystemUUID</key>
+			<string>7BD82C94-6421-41B9-A0A2-14780F92EECA</string>
+			<key>SystemVersion</key>
+			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1612,7 +1449,7 @@
 		<key>UpdateSMBIOS</key>
 		<true/>
 		<key>UpdateSMBIOSMode</key>
-		<string>Custom</string>
+		<string>Create</string>
 		<key>UseRawUuidEncoding</key>
 		<false/>
 	</dict>
@@ -1681,7 +1518,7 @@
 			<key>MinimumAudibleGain</key>
 			<integer>-55</integer>
 			<key>PlayChime</key>
-			<string>Auto</string>
+			<string>Disabled</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
@@ -1696,18 +1533,6 @@
 				<string></string>
 				<key>Comment</key>
 				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>OpenRuntime.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>HFS+ Driver</string>
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
@@ -1737,6 +1562,18 @@
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
 				<string>CrScreenshotDxe.efi</string>
 			</dict>
 			<dict>
@@ -1749,7 +1586,7 @@
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
-				<string>ResetNvramEntry.efi</string>
+				<string>ToggleSipEntry.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1761,7 +1598,7 @@
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
-				<string>ToggleSipEntry.efi</string>
+				<string>ResetNvramEntry.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -1853,9 +1690,9 @@
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<false/>
+			<true/>
 			<key>HashServices</key>
-			<false/>
+			<true/>
 			<key>OSInfo</key>
 			<false/>
 			<key>PciIo</key>
@@ -1882,7 +1719,7 @@
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
-			<false/>
+			<true/>
 			<key>ReloadOptionRoms</key>
 			<false/>
 			<key>RequestBootVarRouting</key>
@@ -1899,6 +1736,8 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
+		<array/>
+		<key>Unload</key>
 		<array/>
 	</dict>
 </dict>
