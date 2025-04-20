@@ -6,7 +6,7 @@
 
 # Current macOS
 
-Current Version: macOS Ventura 13.6.3
+Current Version: macOS Ventura 15.3.2
 
 # Hardware
 
@@ -17,7 +17,7 @@ Current Version: macOS Ventura 13.6.3
 | **Memory** | 32 GB (2x16GB) Corsair DDR5 7200Mhz CL34 |
 | **Graphics** | AMD Radeon RX6600XT |
 | **PSU** | Corsair SF750 |
-| **Wifi/Bluetooth** | Fenvi FV-HB1200 with Broadcom Chipset |
+| **Wifi/Bluetooth** | Fenvi FV-HB1200 with Broadcom 94360CD Chipset |
 
 # Working
 - Audio
@@ -25,7 +25,7 @@ Current Version: macOS Ventura 13.6.3
 - CPU Power Management
 - USB Ports
 - Sleep/Wake
-- Wifi/BT
+- Wifi/BT (not onboard)
 
 # Not working
 - iGPU, disable this in your BIOS.
@@ -38,7 +38,7 @@ Use MacPro7,1 model and create your own serial info with [genSMBIOS](https://dor
 
 # USB Port Mapping
 
-USB-Port Mapping is done via `USBPorts.kext`:
+USB-Port Mapping is done via `USBMap.kext`:
 
 See below pictures for mapping according included kext.
 
